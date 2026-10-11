@@ -1,0 +1,16 @@
+{
+  "name": "ninzy-wa-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp (Baileys) yang memakai API key NinzyCompress (v2): downloader, remove bg, AI, dan 60+ tool lain",
+  "type": "module",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "pino": "^9.0.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
